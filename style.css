@@ -1,0 +1,21 @@
+.navbar-brand img{
+    width: 130px;
+}
+.full-width{
+    width: 100%;
+    height: auto;
+}
+.subscribe{
+    background-image: url(https://primeinspire.com/wp-content/uploads/2024/11/Prime-Inspire-Logo.svg);
+    background-size: cover;
+    background-position: center;
+}
+.brand-icon img{
+    width: 150px;
+    height: auto;
+    
+}
+.blur-filter{
+    backdrop-filter: blur(8px);
+    background-color: rgb(239 239 248 / 30%);
+}

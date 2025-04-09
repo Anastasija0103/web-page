@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light pt-5">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top border-bottom small blur-filter">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="https://primeinspire.com/wp-content/uploads/2024/11/Prime-Inspire-Logo.svg" alt="">
+            </a>
+            <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-content"
+            aria-controls="navbar-content"
+            aria-expanded="false"
+            aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="courses.html" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-auto me-1 d-grid d-md-block gap-2 mb-2 mb-md-0">
+                    <a href="#" class="btn btn-sm btn-danger align-items-center d-inline-flex text-center justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill me-2" viewBox="0 0 16 16">
+                            <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5"/>
+                          </svg>
+                        Sign-up for Free
+                    </a>
+                    <a href="#" class="btn btn-sm btn-warning align-items-center d-inline-flex text-center justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right me-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                          </svg>
+                        Login
+                    </a>
+                </div>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input type="search" class="form-control form-control-sm" placeholder="Search for...">
+                        <button type="submit" class="btn btn-sm btn-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                              </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+    </nav>
+    <!--Navbar-->
+
+    <!--Home Banner-->
+    <header class="main-header py-5 border-bottom">
+        <div class="container">
+            <div class="row align-items-center gx-md-5">
+                <div class="col-md-6">
+                    <div class="home-header-text-holder pe-md-5">
+                        <h1 class="fs-3 fw-normal">Your Ultimate Destination to Master Web Design & Development  </h1>
+                        <h2 class="fs-5 fw-light text-secondary">Unlock the skills of the future with practical, expert-led courses and insightful tech tips, all designed to bring your projects to life.</h2>
+                        <a href="#" class="btn btn-sm btn-success mt-2 mb-3 d-inline-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check-fill me-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                              </svg>
+                            Sign-up to Get Started
+                        </a>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home-header-image-holder">
+                        <img class="rounded img-fluid shadow-sm full-width" src="img/Learning-to-Code-on-PC.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Home Banner-->
+
+    <!--Site Features-->
+    <section class="site-features py-4 border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-item d-flex align-items-top bg-white p-3 border rounded mb-md-0 mb-3">
+                        <div class="flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-video3" viewBox="0 0 16 16">
+                                <path d="M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-6 5.7c0 .8.8.8.8.8h6.4s.8 0 .8-.8-.8-3.2-4-3.2-4 2.4-4 3.2"/>
+                                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h5.243c.122-.326.295-.668.526-1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v7.81c.353.23.656.496.91.783Q16 12.312 16 12V4a2 2 0 0 0-2-2z"/>
+                              </svg>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h3 class="fs-5">Expert-Led Training</h3>
+                            <p class="small text-secondary">Learn directly from a seasoned web development expert with years of real-world experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item d-flex align-items-top bg-white p-3 border rounded mb-md-0 mb-3">
+                    <div class="flex-shrink-0">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                          </svg>
+                          
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h3 class="fs-5">On-Demand Video Lessons</h3>
+                        <p class="small text-secondary">Access all the high-quality video content at your own pace, anytime and anywhere.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4">
+                    <div class="feature-item d-flex align-items-top bg-white p-3 border rounded mb-md-0 mb-3">
+                    <div class="flex-shrink-0">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
+                            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9 9 0 0 0 8 15"/>
+                          </svg>
+                          
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h3 class="fs-5">Student Support & Guidance</h3>
+                        <p class="small text-secondary">Have questions? Get responsive support and personalized guidance as you learn.</p>
+                    </div>
+                </div></div>
+            </div>
+        </div>
+    </section>
+    <!--Site Features-->
+
+    <!--Course Loop-->
+    <section class="course-loop py-4 border-bottom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="course-loop-heading text-md-center mb-4">
+                        <h4 class="fs-5">Take the Next Step in Your Tech Journey</h4>
+                        <p class="small text-secondary">Access Easy to learn, hands-on courses crafted by an industry expert. From foundational skills to advanced techniques, start building your future in web technology today. </p>
+                        <a href="courses.html" class="btn btn-sm btn-success d-inline-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill me-2" viewBox="0 0 16 16">
+                                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+                                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+                              </svg>
+                            View all courses
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="list-group small mb-3">
+                        <div class="list-group-item text-bg-light fw-bold">Course Categories</div>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Premium Courses
+                            <span class="badge text-bg-warning rounded-pill">14</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Free Courses
+                            <span class="badge text-bg-warning rounded-pill">1</span>
+                        </a>
+                    </div>
+                    <div class="list-group small mb-3">
+                        <div class="list-group-item text-bg-light fw-bold">Course by Topics</div>                       
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Coding
+                            <span class="badge text-bg-warning rounded-pill">14</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Programming
+                            <span class="badge text-bg-warning rounded-pill">1</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Design
+                            <span class="badge text-bg-warning rounded-pill">1</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="list-group small">
+                        <div class="list-group-item text-bg-light fw-bold d-flex justify-content-between align-items-center">
+                            List of all courses
+                                <span class="badge text-bg-warning rounded-pill">24 Courses Available</span>
+                            
+                        </div>
+                        <a href="single-course.html" class="list-group-item list-group-items-action">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounced img-fluid mb-md-0 mt-md-0 mt-2" src="img/html.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>HTML: HyperText Markup Language </h5>
+                                    <p class="text-secondary">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</p>
+                                    <p class="d-inline-flex align-items-center">
+                                        <span class="me-2 rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg>
+                                            Rating: 4.7
+                                        </span>
+                                        <span class="rounded-pill text-bg-success px-2 py-1 small">
+                                            Price: Rs.499/-
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="single-course.html" class="list-group-item list-group-items-action">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounced img-fluid mb-md-0 mt-md-0 mt-2" src="img/CSS3_Logo.PNG.webp" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>CSS: Cascading Style Sheets</h5>
+                                    <p class="text-secondary">Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.</p>
+                                    <p class="d-inline-flex align-items-center">
+                                        <span class="me-2 rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg>
+                                            Rating: 4.5
+                                        </span>
+                                        <span class="rounded-pill text-bg-success px-2 py-1 small">
+                                            Price: Rs.499/-
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="single-course.html" class="list-group-item list-group-items-action">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounced img-fluid mb-md-0 mt-md-0 mt-2" src="img/js.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>JavaScript</h5>
+                                    <p class="text-secondary">JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.</p>
+                                    <p class="d-inline-flex align-items-center">
+                                        <span class="me-2 rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg>
+                                            Rating: 4.1
+                                        </span>
+                                        <span class="rounded-pill text-bg-success px-2 py-1 small">
+                                            Price: Rs.499/-
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="single-course.html" class="list-group-item list-group-items-action">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounced img-fluid mb-md-0 mt-md-0 mt-2" src="img/React-icon.svg.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>React</h5>
+                                    <p class="text-secondary">React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.</p>
+                                    <p class="d-inline-flex align-items-center">
+                                        <span class="me-2 rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg>
+                                            Rating: 5.0
+                                        </span>
+                                        <span class="rounded-pill text-bg-success px-2 py-1 small">
+                                            Price: Rs.499/-
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="single-course.html" class="list-group-item list-group-items-action">
+                            <div class="row align-items-center g-3">
+                                <div class="col-md-4">
+                                    <div class="course-image-holder">
+                                        <img class="rounced img-fluid mb-md-0 mt-md-0 mt-2" src="img/djangp.jpeg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Django</h5>
+                                    <p class="text-secondary">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.</p>
+                                    <p class="d-inline-flex align-items-center">
+                                        <span class="me-2 rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill me-2" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg>
+                                            Rating: 4.9
+                                        </span>
+                                        <span class="rounded-pill text-bg-success px-2 py-1 small">
+                                            Price: Rs.499/-
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Course Loop-->
+
+    <!--Home Page Content-->
+    <section class="home-page-content py-4 mb-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="home-content-holder pe-md-3">
+                        <h2 class="fs-5">Stay Updated with the Latest in Tech</h2>
+                        <p class="small text-secondary">
+                            Explore expert tips, tricks, and guides on web development, PC optimization, Android customization, and more. Dive into a world of practical knowledge to enhance your tech skills.
+                        </p>
+                        <h2 class="fs-5">Stay Updated with the Latest in Tech</h2>
+                        <p class="small text-secondary">
+                            Explore expert tips, tricks, and guides on web development, PC optimization, Android customization, and more. Dive into a world of practical knowledge to enhance your tech skills.
+                        </p>
+                        <a href="#" class="btn btn-sm btn-success d-inline-flex align-items-center mb-md-0 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="me-2 bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                              </svg>
+                            Sign up to get more info
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home-content-image">
+                        <img class="img-fluid full-width rounded shadow-sm" src="img/Man-learning-new-techniques-on-Web-Technology.webp" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Home Page Content-->
+
+    <!--Subscribe-->
+    <section class="subscribe py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                
+                <div class="col-md-4">
+                    <form class="d-flex justify-content-center">
+                        <div class="input-group">
+                            <input type="email" class="form-control form-control-sm" placeholder="Your Email">
+                            <button type="submit" class="btn btn-sm btn-success d-inline-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="me-2 bi bi-envelope-check-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z"/>
+                                    <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686"/>
+                                  </svg>
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Subscribe-->
+
+    <!--Main Footer-->
+    <footer class="main-footer text-bg-dark py-5 small">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="brand-icon mb-2">
+                        <img src="https://primeinspire.com/wp-content/uploads/2024/11/Prime-Inspire-Logo.svg" alt="">
+                    </div>
+                    <address class="small text-secondary">
+                        Jayangar, Bangalore <br>
+                        Karmataka, India. <br>
+                        560011
+                    </address>
+                    <p class="small text-secondary">
+                        contact&commat;primeinspire.com
+
+                    </p>
+
+                </div>
+                <div class="col-md-2">
+                    <h6>Main Menu</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Misc</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">Link Item</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <h6>Follow us</h6>
+                    <p>
+                        <a href="#" class="btn btn-sm btn-primary rounded-pill px-md-3 d-inline-flex align-items-center mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook me-md-2" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                              </svg>
+                              <span class="d-md-block d-none">Facebook</span>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-info rounded-pill px-md-3 d-inline-flex align-items-center mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter me-md-2" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                              </svg>
+                              <span class="d-md-block d-none">Twitter</span>
+                        </a>
+                        <a href="#" class="btn btn-sm btn-danger rounded-pill px-md-3 d-inline-flex align-items-center mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube me-md-2" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                              </svg>
+                              <span class="d-md-block d-none">Youtube</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Main Footer-->
+
+    <!--Copyright-->
+    <div class="copy py-4 small" style="background-color: black;">
+        <div class="container">
+            <div class="row justify-content-center text-center text-white">
+                <p class="m-0 small">Copyright &copy; 2025. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <!--Copyright-->
+
+    <!--Mobile Padding-->
+    <div class="mobile-padding pt-5 pb-4 d-md-none" style="background-color: black;"></div>
+    <!--Mobile Padding-->
+
+    <!--Sticky Footer-->
+    <div class="d-md-none d-block d-flex p-3 fixed-bottom justify-content-center blur-filter shadow-lg">
+        <a href="#" class="rounded-pill btn btn-sm btn-warning small px-3 fw-bold d-inline-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check-fill me-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+            Sign-up for Free
+        </a>
+    </div>
+    <!--Sticky Footer-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
